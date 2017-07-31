@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0D9D4C1F2E26C700617673 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D9D4B1F2E26C700617673 /* UsersViewController.swift */; };
+		2B0D9D4F1F2E2C7D00617673 /* UsersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D9D4E1F2E2C7D00617673 /* UsersViewCell.swift */; };
+		2B0D9D511F2E9AC900617673 /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D9D501F2E9AC900617673 /* ChatCollectionViewCell.swift */; };
+		2B69824D1F2CCFF6008D67A7 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982431F2CCFF6008D67A7 /* FirebaseAnalytics.framework */; };
+		2B69824E1F2CCFF6008D67A7 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982441F2CCFF6008D67A7 /* FirebaseCore.framework */; };
+		2B69824F1F2CCFF6008D67A7 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982451F2CCFF6008D67A7 /* FirebaseCoreDiagnostics.framework */; };
+		2B6982501F2CCFF6008D67A7 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982461F2CCFF6008D67A7 /* FirebaseInstanceID.framework */; };
+		2B6982511F2CCFF6008D67A7 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982471F2CCFF6008D67A7 /* FirebaseNanoPB.framework */; };
+		2B6982521F2CCFF6008D67A7 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982481F2CCFF6008D67A7 /* GoogleToolboxForMac.framework */; };
+		2B6982531F2CCFF6008D67A7 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6982491F2CCFF6008D67A7 /* nanopb.framework */; };
+		2B6982541F2CCFF6008D67A7 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B69824A1F2CCFF6008D67A7 /* FirebaseAuth.framework */; };
+		2B6982551F2CCFF6008D67A7 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B69824B1F2CCFF6008D67A7 /* GTMSessionFetcher.framework */; };
+		2B6982561F2CCFF6008D67A7 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B69824C1F2CCFF6008D67A7 /* FirebaseDatabase.framework */; };
+		2B9B969E1F2BF977008B5283 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B969D1F2BF977008B5283 /* ChatViewController.swift */; };
+		2B9B96A01F2C0F22008B5283 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B9B969F1F2C0F22008B5283 /* GoogleService-Info.plist */; };
 		2B9E81991F2A897100E20BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E81981F2A897100E20BCC /* AppDelegate.swift */; };
-		2B9E819B1F2A897100E20BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E819A1F2A897100E20BCC /* ViewController.swift */; };
 		2B9E819E1F2A897200E20BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E819C1F2A897200E20BCC /* Main.storyboard */; };
 		2B9E81A01F2A897200E20BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E819F1F2A897200E20BCC /* Assets.xcassets */; };
 		2B9E81A31F2A897200E20BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E81A11F2A897200E20BCC /* LaunchScreen.storyboard */; };
+		2B9E81AD1F2A948700E20BCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E81AB1F2A948700E20BCC /* LoginViewController.swift */; };
+		2B9E81AE1F2A948700E20BCC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E81AC1F2A948700E20BCC /* RegisterViewController.swift */; };
+		2B9E81B01F2A94B200E20BCC /* Utiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E81AF1F2A94B200E20BCC /* Utiles.swift */; };
+		2B9E81B51F2A9E5500E20BCC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E81B41F2A9E5500E20BCC /* User.swift */; };
+		2BFA320B1F2FC300000747FC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA320A1F2FC300000747FC /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0D9D4B1F2E26C700617673 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		2B0D9D4E1F2E2C7D00617673 /* UsersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewCell.swift; sourceTree = "<group>"; };
+		2B0D9D501F2E9AC900617673 /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B6981F81F2CCCB3008D67A7 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		2B6981F91F2CCCB3008D67A7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2B6982431F2CCFF6008D67A7 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		2B6982441F2CCFF6008D67A7 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		2B6982451F2CCFF6008D67A7 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		2B6982461F2CCFF6008D67A7 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2B6982471F2CCFF6008D67A7 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		2B6982481F2CCFF6008D67A7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		2B6982491F2CCFF6008D67A7 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		2B69824A1F2CCFF6008D67A7 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		2B69824B1F2CCFF6008D67A7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		2B69824C1F2CCFF6008D67A7 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		2B9B969D1F2BF977008B5283 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2B9B969F1F2C0F22008B5283 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B9E81951F2A897100E20BCC /* ChatUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9E81981F2A897100E20BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B9E819A1F2A897100E20BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B9E819D1F2A897200E20BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B9E819F1F2A897200E20BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B9E81A21F2A897200E20BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B9E81A41F2A897200E20BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9E81AB1F2A948700E20BCC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B9E81AC1F2A948700E20BCC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2B9E81AF1F2A94B200E20BCC /* Utiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utiles.swift; sourceTree = "<group>"; };
+		2B9E81B41F2A9E5500E20BCC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2BFA320A1F2FC300000747FC /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +69,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B69824F1F2CCFF6008D67A7 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				2B6982551F2CCFF6008D67A7 /* GTMSessionFetcher.framework in Frameworks */,
+				2B69824E1F2CCFF6008D67A7 /* FirebaseCore.framework in Frameworks */,
+				2B6982511F2CCFF6008D67A7 /* FirebaseNanoPB.framework in Frameworks */,
+				2B6982561F2CCFF6008D67A7 /* FirebaseDatabase.framework in Frameworks */,
+				2B6982531F2CCFF6008D67A7 /* nanopb.framework in Frameworks */,
+				2B6982521F2CCFF6008D67A7 /* GoogleToolboxForMac.framework in Frameworks */,
+				2B6982541F2CCFF6008D67A7 /* FirebaseAuth.framework in Frameworks */,
+				2B69824D1F2CCFF6008D67A7 /* FirebaseAnalytics.framework in Frameworks */,
+				2B6982501F2CCFF6008D67A7 /* FirebaseInstanceID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0D9D4D1F2E2C5300617673 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D9D4E1F2E2C7D00617673 /* UsersViewCell.swift */,
+				2B0D9D501F2E9AC900617673 /* ChatCollectionViewCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		2B9B969A1F2BF76B008B5283 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E819C1F2A897200E20BCC /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		2B9E818C1F2A897100E20BCC = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +121,50 @@
 		2B9E81971F2A897100E20BCC /* ChatUp */ = {
 			isa = PBXGroup;
 			children = (
+				2B0D9D4D1F2E2C5300617673 /* cells */,
+				2B9E81B11F2A9DC900E20BCC /* model */,
+				2B9B969A1F2BF76B008B5283 /* view */,
+				2B9E81AA1F2A944700E20BCC /* controller */,
 				2B9E81981F2A897100E20BCC /* AppDelegate.swift */,
-				2B9E819A1F2A897100E20BCC /* ViewController.swift */,
-				2B9E819C1F2A897200E20BCC /* Main.storyboard */,
+				2B9E81AF1F2A94B200E20BCC /* Utiles.swift */,
 				2B9E819F1F2A897200E20BCC /* Assets.xcassets */,
 				2B9E81A11F2A897200E20BCC /* LaunchScreen.storyboard */,
+				2B9B969F1F2C0F22008B5283 /* GoogleService-Info.plist */,
 				2B9E81A41F2A897200E20BCC /* Info.plist */,
+				2B6981F81F2CCCB3008D67A7 /* Firebase.h */,
+				2B6981F91F2CCCB3008D67A7 /* module.modulemap */,
+				2B6982431F2CCFF6008D67A7 /* FirebaseAnalytics.framework */,
+				2B6982441F2CCFF6008D67A7 /* FirebaseCore.framework */,
+				2B6982451F2CCFF6008D67A7 /* FirebaseCoreDiagnostics.framework */,
+				2B6982461F2CCFF6008D67A7 /* FirebaseInstanceID.framework */,
+				2B6982471F2CCFF6008D67A7 /* FirebaseNanoPB.framework */,
+				2B6982481F2CCFF6008D67A7 /* GoogleToolboxForMac.framework */,
+				2B6982491F2CCFF6008D67A7 /* nanopb.framework */,
+				2B69824A1F2CCFF6008D67A7 /* FirebaseAuth.framework */,
+				2B69824B1F2CCFF6008D67A7 /* GTMSessionFetcher.framework */,
+				2B69824C1F2CCFF6008D67A7 /* FirebaseDatabase.framework */,
 			);
 			path = ChatUp;
+			sourceTree = "<group>";
+		};
+		2B9E81AA1F2A944700E20BCC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E81AB1F2A948700E20BCC /* LoginViewController.swift */,
+				2B9E81AC1F2A948700E20BCC /* RegisterViewController.swift */,
+				2B9B969D1F2BF977008B5283 /* ChatViewController.swift */,
+				2B0D9D4B1F2E26C700617673 /* UsersViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		2B9E81B11F2A9DC900E20BCC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E81B41F2A9E5500E20BCC /* User.swift */,
+				2BFA320A1F2FC300000747FC /* Message.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +199,7 @@
 				TargetAttributes = {
 					2B9E81941F2A897100E20BCC = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9E81A31F2A897200E20BCC /* LaunchScreen.storyboard in Resources */,
+				2B9B96A01F2C0F22008B5283 /* GoogleService-Info.plist in Resources */,
 				2B9E81A01F2A897200E20BCC /* Assets.xcassets in Resources */,
 				2B9E819E1F2A897200E20BCC /* Main.storyboard in Resources */,
 			);
@@ -136,7 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9E819B1F2A897100E20BCC /* ViewController.swift in Sources */,
+				2B9E81AE1F2A948700E20BCC /* RegisterViewController.swift in Sources */,
+				2B9E81B01F2A94B200E20BCC /* Utiles.swift in Sources */,
+				2B9E81AD1F2A948700E20BCC /* LoginViewController.swift in Sources */,
+				2B0D9D4F1F2E2C7D00617673 /* UsersViewCell.swift in Sources */,
+				2B0D9D4C1F2E26C700617673 /* UsersViewController.swift in Sources */,
+				2B9E81B51F2A9E5500E20BCC /* User.swift in Sources */,
+				2B9B969E1F2BF977008B5283 /* ChatViewController.swift in Sources */,
+				2BFA320B1F2FC300000747FC /* Message.swift in Sources */,
+				2B0D9D511F2E9AC900617673 /* ChatCollectionViewCell.swift in Sources */,
 				2B9E81991F2A897100E20BCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,9 +317,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ChatUp";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -249,8 +364,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ChatUp";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -262,10 +379,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatUp",
+				);
 				INFOPLIST_FILE = ChatUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.ChatUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +399,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatUp",
+				);
 				INFOPLIST_FILE = ChatUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.ChatUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +433,7 @@
 				2B9E81A91F2A897200E20BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
