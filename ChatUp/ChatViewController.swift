@@ -22,7 +22,8 @@ class ChatViewController: UIViewController{
     var receiver: User?
     var myUid: String = (Auth.auth().currentUser?.uid)!
     
-    let messegeRef = Database.database().reference()
+    var messegeRef = Database.database().reference().child("messages")
+    var receiverMessageRef = Database.database().reference().child("messages")
     
     
     var messages: [Message] = []
@@ -30,19 +31,23 @@ class ChatViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         let chatId = "\(myUid)\((receiver?._uid)!)"
-        messegeRef.child("messages").child(chatId)
-//        observeNewMessage()
+        let receiverChatId = "\((receiver?._uid)!)\(myUid)"
+        
+        messegeRef = messegeRef.child(chatId)
+        receiverMessageRef = receiverMessageRef.child(receiverChatId)
+        
+        observeNewMessage()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        if let user = receiver{
+            usernameLabel.text = user.fullName
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         messegeRef.removeAllObservers()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        if let user = receiver{
-            usernameLabel.text = user.fullName
-        }
-    }
     
     
     @IBAction func logoutPressed(_ sender: Any) {
@@ -51,11 +56,12 @@ class ChatViewController: UIViewController{
     
     func observeNewMessage(){
         messegeRef.observe(.childAdded, with: { (snapshot) in
-            let newMessageDict = snapshot.value as! [String: String]
+            let newMessageDict = snapshot.value as! [String: Any]
             if let newMessage = Message.dictionaryToMessage(dict: newMessageDict){
                 self.messages.append(newMessage)
             }
             self.collectionView.reloadData()
+            print("ahmed")
         })
     }
     
@@ -69,7 +75,10 @@ class ChatViewController: UIViewController{
             let messageObj = Message(_message: messageText, _from: messageFrom, _to: messageTo, _date: messageDate)
             let messageDict = Message.messageToDictionary(message: messageObj)
             
-            messegeRef.childByAutoId().setValue(messageDict)
+            let messageId: String = messegeRef.childByAutoId().key
+            messegeRef.child(messageId).setValue(messageDict)
+            receiverMessageRef.child(messageId).setValue(messageDict)
+            
             writeMessageTextField.text = ""
         }
     }
